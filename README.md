@@ -1,3 +1,4 @@
+
 # Basic Multi-Layer Perceptron (MLP) for Wine Quality Classification
 
 ## Introduction
@@ -49,7 +50,7 @@ The **Wine Quality Dataset** contains several attributes of wine samples:
    - The red wine dataset is loaded using NumPy from the provided CSV file.
    
 2. **Data Preprocessing**: 
-   - The dataset is preprocessed by normalizing or standardizing the features. The dataset is split into training and testing sets with a ratio of 80\% training data and 20\% testing data.
+   - The dataset is preprocessed by normalizing or standardizing the features. The dataset is split into training and testing sets with a ratio of 80% training data and 20% testing data.
 
 3. **Model Implementation**: 
    - A simple MLP architecture is implemented, starting with one hidden layer. The input nodes correspond to the attributes of the wine, while the output node corresponds to the quality score.
@@ -134,6 +135,34 @@ Ten activation functions are selected, and their distributions are visualized. T
 
 Each of these functions and their derivatives is plotted to analyze their behaviors.
 
+![Plot 1](/mnt/data/plot_1.png)
+![Plot 2](/mnt/data/plot_2.png)
+![Plot 3](/mnt/data/plot_3.png)
+![Plot 4](/mnt/data/plot_4.png)
+![Plot 5](/mnt/data/plot_5.png)
+![Plot 6](/mnt/data/plot_6.png)
+![Plot 7](/mnt/data/plot_7.png)
+![Plot 8](/mnt/data/plot_8.png)
+![Plot 9](/mnt/data/plot_9.png)
+![Plot 10](/mnt/data/plot_10.png)
+![Plot 11](/mnt/data/plot_11.png)
+![Plot 12](/mnt/data/plot_12.png)
+![Plot 13](/mnt/data/plot_13.png)
+![Plot 14](/mnt/data/plot_14.png)
+![Plot 15](/mnt/data/plot_15.png)
+![Plot 16](/mnt/data/plot_16.png)
+![Plot 17](/mnt/data/plot_17.png)
+![Plot 18](/mnt/data/plot_18.png)
+![Plot 19](/mnt/data/plot_19.png)
+![Plot 20](/mnt/data/plot_20.png)
+![Plot 21](/mnt/data/plot_21.png)
+![Plot 22](/mnt/data/plot_22.png)
+![Plot 23](/mnt/data/plot_23.png)
+![Plot 24](/mnt/data/plot_24.png)
+![Plot 25](/mnt/data/plot_25.png)
+![Plot 26](/mnt/data/plot_26.png)
+![Plot 27](/mnt/data/plot_27.png)
+
 ## Conclusion
 
 This project demonstrated the practical application of an MLP for wine quality classification. The implemented model used various techniques, including backpropagation and different learning rates, to optimize performance. The analysis of activation functions and pruning techniques provides further insights into improving neural network models.
@@ -141,3 +170,31 @@ This project demonstrated the practical application of an MLP for wine quality c
 ## References
 
 - Wine Quality Dataset: [Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
+
+![Plot 28](/mnt/data/plot_28.png)
+![Plot 29](/mnt/data/plot_29.png)
+![Plot 30](/mnt/data/plot_30.png)
+![Plot 31](/mnt/data/plot_31.png)
+![Plot 32](/mnt/data/plot_32.png)
+![Plot 33](/mnt/data/plot_33.png)
+![Plot 34](/mnt/data/plot_34.png)
+![Plot 35](/mnt/data/plot_35.png)
+![Plot 36](/mnt/data/plot_36.png)
+![Plot 37](/mnt/data/plot_37.png)
+![Plot 38](/mnt/data/plot_38.png)
+![Plot 39](/mnt/data/plot_39.png)
+![Plot 40](/mnt/data/plot_40.png)
+![Plot 41](/mnt/data/plot_41.png)
+![Plot 42](/mnt/data/plot_42.png)
+![Plot 43](/mnt/data/plot_43.png)
+![Plot 44](/mnt/data/plot_44.png)
+![Plot 45](/mnt/data/plot_45.png)
+![Plot 46](/mnt/data/plot_46.png)
+![Plot 47](/mnt/data/plot_47.png)
+![Plot 48](/mnt/data/plot_48.png)
+![Plot 49](/mnt/data/plot_49.png)
+![Plot 50](/mnt/data/plot_50.png)
+![Plot 51](/mnt/data/plot_51.png)
+![Plot 52](/mnt/data/plot_52.png)
+![Plot 53](/mnt/data/plot_53.png)
+![Plot 54](/mnt/data/plot_54.png)
