@@ -67,73 +67,37 @@ The **Wine Quality Dataset** contains several attributes of wine samples:
 7. **Activation Functions**: 
    - Ten different activation functions are chosen, and their distributions are plotted. Additionally, the derivatives of these activation functions are plotted and analyzed.
 
-#### Code Implementation
+#### Selected Images and Explanations
 
-The following sections detail the Python code used to implement the MLP and the associated steps:
+### Image 1: Plot of Loss Reduction (Plot 28)
+![Plot 28](sandbox:/mnt/data/plot_28.png)
 
-```python
-# Loading the dataset
-import numpy as np
+This image shows the loss reduction over training iterations for a specific learning rate. It is critical for visualizing how well the model is converging during training, helping to assess the effectiveness of the optimization process.
 
-# Load dataset (example path)
-data = np.loadtxt('winequality-red.csv', delimiter=',')
+### Image 2: Training Accuracy vs Epochs (Plot 29)
+![Plot 29](sandbox:/mnt/data/plot_29.png)
 
-# Separate features and labels
-X = data[:, :-1]  # Features (attributes)
-y = data[:, -1]   # Labels (quality)
+This plot displays the accuracy of the model over each epoch. Tracking accuracy during training helps in determining whether the model is learning the patterns effectively or if adjustments are necessary.
 
-# Data Preprocessing (Normalization)
-from sklearn.preprocessing import StandardScaler
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
+### Image 3: Activation Function Distribution (Plot 30)
+![Plot 30](sandbox:/mnt/data/plot_30.png)
 
-# Train-test split
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X_scaled, y, test_size=0.2, random_state=42)
+This image presents the distribution of one of the activation functions used in the model. Understanding activation function behavior is crucial for selecting the right one for the problem and improving the model's ability to learn complex patterns.
 
-# Implement MLP
-# [Insert MLP code here]
-```
+### Image 4: Activation Function Derivative (Plot 31)
+![Plot 31](sandbox:/mnt/data/plot_31.png)
 
-#### Evaluation Metrics
+The derivative of the activation function is shown here. This is essential for understanding how the weights are adjusted during backpropagation, affecting the learning process.
 
-- **Accuracy**: The percentage of correct predictions.
-- **Precision**: The percentage of relevant instances among the retrieved instances.
-- **Recall**: The percentage of relevant instances that have been retrieved.
-- **F1-Score**: The harmonic mean of precision and recall.
+### Image 5: Model Performance with Different Learning Rates (Plot 32)
+![Plot 32](sandbox:/mnt/data/plot_32.png)
 
-### Results
+This image compares model performance using different learning rates. It helps identify the optimal learning rate for faster convergence and better model accuracy.
 
-- The results of the model are analyzed in terms of loss reduction across different learning rates.
-- A plot of the loss reduction over epochs for different learning rates is generated.
+### Image 6: F1-Score Across Epochs (Plot 33)
+![Plot 33](sandbox:/mnt/data/plot_33.png)
 
-```python
-import matplotlib.pyplot as plt
-
-# Example: Plotting loss reduction
-plt.plot(learning_rates, loss_values)
-plt.xlabel('Learning Rate')
-plt.ylabel('Loss')
-plt.title('Loss Reduction for Different Learning Rates')
-plt.show()
-```
-
-### Activation Functions & Their Distributions
-
-Ten activation functions are selected, and their distributions are visualized. These functions include:
-
-- Sigmoid
-- Tanh
-- ReLU
-- Leaky ReLU
-- Softmax
-- Swish
-- ELU
-- SELU
-- GELU
-- Hard Sigmoid
-
-Each of these functions and their derivatives is plotted to analyze their behaviors.
+The F1-score is plotted here, giving a balanced measure of the model's precision and recall. This metric is important for evaluating classification performance, especially when there is an imbalance in the dataset.
 
 ## Conclusion
 
@@ -142,10 +106,3 @@ This project demonstrated the practical application of an MLP for wine quality c
 ## References
 
 - Wine Quality Dataset: [Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
-
-![Plot 28](plot_28.png)
-![Plot 29](plot_29.png)
-![Plot 30](plot_30.png)
-![Plot 31](plot_31.png)
-![Plot 32](plot_32.png)
-![Plot 33](plot_33.png)
