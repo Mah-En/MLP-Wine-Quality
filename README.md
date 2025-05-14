@@ -70,7 +70,7 @@ The **Wine Quality Dataset** contains several attributes of wine samples:
 #### Selected Images and Explanations
 
 ### Image 1: Plot of Loss Reduction (Plot 28)
-![Plot 28] (plot_28.png)
+![Plot 28](plot_28.png)
 
 This image shows the loss reduction over training iterations for a specific learning rate. It is critical for visualizing how well the model is converging during training, helping to assess the effectiveness of the optimization process.
 
